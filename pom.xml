@@ -24,6 +24,6 @@
 </dependency>
   </dependencies>
   <build>
-    <finalName>myjenkinsfile</finalName>
+    <finalName>webappforjenkins</finalName>
   </build>
 </project>
