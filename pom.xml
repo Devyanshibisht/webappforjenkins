@@ -3,7 +3,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.webappforjenkins</groupId>
   <artifactId>webappforjenkins</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   
   <build>
@@ -15,7 +14,8 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>    
     </configuration>
 </plugin>
-  <version>0.0.1-SNAPSHOT</version>
+     
+  <version>1.8-SNAPSHOT</version>
   <name>webappforjenkins Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
