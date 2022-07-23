@@ -1,28 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.webappforjenkins</groupId>
-  <artifactId>webappforjenkins</artifactId>
+  <groupId>com.webapp</groupId>
+  <artifactId>MyWebApp</artifactId>
   <packaging>war</packaging>
-  
-  <build>
-   <plugins>
-  <plugin>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.3.1 RELEASE</version>
-    <configuration>
-        <failOnMissingWebXml>false</failOnMissingWebXml>    
-    </configuration>
-</plugin>
-     
   <version>0.0.1-SNAPSHOT</version>
-  <name>webappforjenkins Maven Webapp</name>
+  <name>MyWebApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.3.1</version>
+      <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
     
@@ -35,9 +24,6 @@
 </dependency>
   </dependencies>
   <build>
-    <finalName>webappforjenkins</finalName>
-  </build>
-     
-    </plugins>
+    <finalName>MyWebApp</finalName>
   </build>
 </project>
